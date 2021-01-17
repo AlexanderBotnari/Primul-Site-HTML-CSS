@@ -1,0 +1,164 @@
+nav {
+    text-align: right;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-bottom: 1px solid red;
+    font-size: x-large;
+    animation-name: marireMicsorare;
+    animation-duration: 3s;
+}
+.nav-link{
+    margin-right:15px;
+   }
+.par-1{
+    background-color:black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 230px;
+    height: 50px;
+    text-decoration:underline red ;
+    color:red;
+    font-size: 30px;
+    text-align: left;
+    box-shadow: 0 0 10px 5px red,
+    0 0 10px 30px black,
+    30px 0 20px 30px blue; 
+    animation-name: negruToAlbastru;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+h1 {
+    text-shadow: 5px 5px 2px black;
+    font-size:60px;
+    color: red;
+}
+.pagDeStart{
+    border-style: ridge ;
+    padding: 10px;
+    border-width: 20px;
+    width: 800px;
+    height: 550px;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px 5px 5px black,
+    inset 10px 10px 5px 5px black;
+    transition: 1s;
+}
+.pagDeStart:hover{
+    transform: scale(1.2);
+}
+.img-home{
+    border-style: solid;
+    border-width: medium;
+    width:600px;
+    height:500px;
+    box-shadow: 10px 10px 5px 5px black,
+    -10px -10px 5px -5px black;
+    transition: 1s;
+}
+.img-home:hover{
+    transform: scale(1.2);
+}
+.home-p2{
+    position:relative;
+    top: 20px;
+    text-decoration: underline;
+    text-shadow:5px 5px 2px brown;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    text-decoration: underline;
+    border-top: solid 2px red;
+    text-align:center;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    font-size: x-large;
+}
+span{
+    color:red;
+}
+span2{
+    color: blue;
+}
+.despre-noi{
+    color: white;
+    font-size: 30px;
+}
+.galerie{
+    text-shadow: 5px 5px 2px darkblue;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.repair{
+    text-align: center;
+    color: white;
+}
+div{
+    text-align: center;
+}
+.contacte-galerie{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.info-contacte{
+    text-align: center;
+    color: white;
+}
+a:hover{
+    color: red;
+}
+a:link{
+    text-decoration: none;
+}
+.video{
+      position: relative ;
+      top: 50px;
+      box-shadow:0 0 10px 10px red,
+      0 0 10px 30px black;
+
+ }
+.buton{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    background-color:black ;
+    border-radius: 20px;
+    padding: 5px;
+    animation: colorchange ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.buton:hover{
+    color: white;
+}
+.fon-principal{
+background-size: contain;
+}
+.telverde{
+    width: 150px;
+    height: 150px;
+    animation-name: marireMicsorare;
+    animation-duration: 5s;
+}
+@keyframes colorchange{
+    0% {background-color: black;}
+    25% {background-color: blue;}
+    50% {background-color: green;}
+    75%{background-color: aqua;}
+    100%{background-color: black;}
+}
+@keyframes marireMicsorare{
+   
+}
+@keyframes negruToAlbastru{
+        from{background-color: black;}
+        to{background-color: blue;}
+}
